@@ -43,10 +43,10 @@ def add_host_to_zabbix(auth_token, hostname, ip, port):
                 "port": port 
             }],
             "groups": [{
-                "groupid": 30 # Zabbix'teki grup ID'si 
+                "groupid": 10 # Zabbix'teki grup ID'si 
             }],
             "templates": [{
-                "templateid": "10564"  # Geçerli bir template ID'si
+                "templateid": "10"  # Geçerli bir template ID'si
             }],
             "status": 0  # Host aktif
         },
